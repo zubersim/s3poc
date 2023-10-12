@@ -1,0 +1,9 @@
+-> express server does not know how to deal with multipart/formdata by default
+-> we use middleware multer for that
+-> s3 bucket is like a big hard drive for the cloud
+-> in order to access the s3 bucket first create a policy for that bucket
+-> when the policy is created create a IAM user and apply that policy
+-> if you upload the file with the same that is exactly same with a file already present in s3 then it would override the existing file
+-> sharp package can be used to modify the image
+-> everything in the s3 bucket is secure nobody can access these images only me and the server
+-> we use presigned url to increase privacy and check whether the user has the correct access or not
